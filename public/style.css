@@ -1,0 +1,12 @@
+#logo {
+    width: 100px;
+    height: 100px;
+}
+.jumbotron {
+    border-bottom: 2px solid firebrick;
+}
+#footer_class {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
