@@ -9,5 +9,5 @@ class Employee extends Model
 {
     use HasFactory;
     // registering our custom columns
-    protected $fillable=['name','username','email','phone'];
+    protected $fillable=['name','username','email','phone','image'];
 }

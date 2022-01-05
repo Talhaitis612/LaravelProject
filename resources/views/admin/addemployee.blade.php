@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
     <h1 class="text-center display-3 text-primary">Add Employee</h1>
-    <form method="POST" action="{{url('/save-data')}}">
+    <form method="POST" action="{{url('/save-data')}}" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
             <label>Name:</label>
@@ -19,6 +19,10 @@
         <div class="form-group">
             <label>Phone:</label>
             <input type="number" name="fphone" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Upload Employee Picture:</label>
+            <input class="form-control" name="image" type="file">
         </div>
         <div class="form-group">
             <input type="Submit" value="Save Data" class="btn btn-outline-primary">

@@ -26,5 +26,7 @@
 
         @endforeach
     </table>
+    <hr>
+    <a href="{{url('/allpdfdownload')}}" class="btn btn-outline-success btn-block">Download All Employees Data</a>
 </div>
 @endsection
